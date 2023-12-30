@@ -1,0 +1,93 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+header img {
+    height: 50px;
+    margin-right: 16px;
+
+}
+
+.navbar {
+    background-color: #d2721c;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #e15f41;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover 
+.nav-menu .nav-link.active {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.section-title span{
+    color: #e1d1a1;
+}
+
+#about-restaurant, #menu {
+    background-color: #efe9d8;
+}
+
+.text-colored{
+    color: #d2721c;
+}
+
+.nav-menu .nav-link.active, #contact-us button {
+    background-color:#e1d1a1 ;
+    color: #fff;
+}
+
+.nav-menu .nav link:hover {
+    color: #e1d1a1;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+#about-restaurant .col-md-5 img {
+    min-height: 300px; 
+}
+
+#about-restaurant .col-md-7 {
+    margin-top: 10%;
+}
+
+
+
+.zoom {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+
+
+
